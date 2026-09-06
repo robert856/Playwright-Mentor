@@ -46,6 +46,12 @@ export interface QuickStats {
   currentStreakDays: number
 }
 
+export interface NorthStar {
+  logline: string
+  theme: string
+  locked: boolean
+}
+
 export interface PlayProject {
   title: string
   currentStage: StageId
@@ -55,4 +61,5 @@ export interface PlayProject {
   mentorNudge: MentorNudge
   quickStats: QuickStats
   recentScenes: Scene[]
+  northStar: NorthStar
 }

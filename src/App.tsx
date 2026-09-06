@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
+import SparkAndLogline from './pages/SparkAndLogline'
 import StagePlaceholder from './pages/StagePlaceholder'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Dashboard />} />
-        <Route path="spark" element={<StagePlaceholder stage="spark" />} />
+        <Route path="spark" element={<SparkAndLogline />} />
         <Route path="characters" element={<StagePlaceholder stage="characters" />} />
         <Route path="outline" element={<StagePlaceholder stage="outline" />} />
         <Route path="drafting" element={<StagePlaceholder stage="drafting" />} />

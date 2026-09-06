@@ -21,6 +21,11 @@ export const mockPlay: PlayProject = {
     lastSessionLabel: '2 days ago',
     currentStreakDays: 5,
   },
+  northStar: {
+    logline: 'A stage manager who has never left the wings must direct opening night alone after the director walks out.',
+    theme: 'Stepping into the spotlight you never asked for.',
+    locked: true,
+  },
   recentScenes: [
     {
       id: 'scene-1',
